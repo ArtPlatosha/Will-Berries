@@ -64,6 +64,7 @@ button {
     position: relative;
     padding: 90px 0 100px;
     background: #B4D1E0 url('../img/slider.png') no-repeat center right 25% / contain;
+
     &__title {
         font-family: 'Roboto Slab', sans-serif;
         margin: 20px 0 15px;
@@ -87,7 +88,37 @@ button {
         width: 100%;
         top:50%;
         transform: translateY(-50%);
+        opacity: 0.5;
+    }
+}
+
+.card {
+
+    &__wrapper {
+        padding: 60px 46px 80px;
+        border-radius: 10px;
+
+        &--1 {
+            background: url('../img/image-1.jpg') no-repeat center center/cover;
+        }
+    }
+    &__title {
+        font-family: 'Roboto Slab', sans-serif;
+        max-width: 220px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #262D33;
+        margin-bottom: 15px;
     }
 
-
+    &__text {
+        font-family: 'Lato', sans-serif;
+        max-width: 175px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5157;
+        margin-bottom: 25px;
+    }
 }
